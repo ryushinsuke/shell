@@ -1,0 +1,579 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigAdd { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EFEFFF; text-decoration: line-through; }
+td.TextItemInsigDiffMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigLeftMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigRightMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemNum { color: #827357; background-color: #F2F2F2; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+td.TextItemSigDiffMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigLeftMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigRightMod { color: #000000; background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 2013/12/03 14:26:40<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; All, With Context &nbsp;
+<br/>
+Left file: D:\kibankoukai_new\08.本番データマスクツール\03.ソース修正\修正前\BACKUP_DAILY\exp_YDC_ITK.sh &nbsp;
+<br/>
+Right file: D:\kibankoukai_new\08.本番データマスクツール\03.ソース修正\修正後\BACKUP_DAILY\exp_YDC_ITK.sh &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">1</td>
+<td class="TextItemSame Wrap">#!/bin/sh</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">1</td>
+<td class="TextItemSame Wrap">#!/bin/sh</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">2</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">========================================================================</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">3</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">シェルＩＤ</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">：</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">exp_YDC_ITK.sh</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">4</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">シェル名称</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">：</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">基準系本番委託データエクスポート処理</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">5</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">処理概要</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">：</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">基準系本番委託データエクスポート処理</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">6</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">入力引数</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">：</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">なし</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">7</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">リターンコード：</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">0：正常終了</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">8</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">1：異常終了</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">9</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">改訂履歴</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">10</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">年月日</span><span class="TextSegInsigDiff">&nbsp;&nbsp; </span><span class="TextSegSigDiff">区分</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">担当者</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">内容</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">11</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">--------</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">----</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">---------</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">--------------------------------------</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">12</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">新規</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">GUT</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">新規作成</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">13</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">20130912</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">修正</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">GUT高志英</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">基盤更改</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">14</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">========================================================================</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">2</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">15</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">3</td>
+<td class="TextItemSame Wrap">NOW=`date '+%Y%m%d'`</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16</td>
+<td class="TextItemSame Wrap">NOW=`date '+%Y%m%d'`</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">4</td>
+<td class="TextItemSame Wrap">HOME_PATH=$(cd $(dirname $0);pwd)</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">17</td>
+<td class="TextItemSame Wrap">HOME_PATH=$(cd $(dirname $0);pwd)</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">5</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">18</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">6</td>
+<td class="TextItemSame Wrap">source ~/.bash_profile</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">19</td>
+<td class="TextItemSame Wrap">source ~/.bash_profile</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">7</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">20</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">21</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#基盤更改の修正　START</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">22</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">LOG_FILE=${HOME_PATH}/log/exp_YDC_ITK_${NOW}.log</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">23</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">24</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">CONFファイルを読み込む</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">25</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">CONF_PATH=${HOME_PATH}/conf</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">26</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">CONF_FILE=&quot;${CONF_PATH}/backup_daily.conf&quot;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">27</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">if</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">[</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-e</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;${CONF_FILE}&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">]</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">;then</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">28</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">.</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;${CONF_FILE}&quot;</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">29</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">else</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">30</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">echo</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;CONFファイル「backup_daily.conf」が存在していない。&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">|</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">tee</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-a</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${LOG_FILE}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">31</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">exit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">1</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">32</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">fi</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">33</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">34</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#本番NASダンプファイルバックアップPATHのチェック</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">35</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">if</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">[</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-z</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">]</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">36</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">then</span><span class="TextSegInsigDiff"> </span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">37</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">echo</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">&quot;本番NASダンプファイルバックアップPATH取得にエラーが発生しました！&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">|</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">tee</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-a</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${LOG_FILE}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">38</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">exit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">1</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">39</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">fi</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">40</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">41</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#本番DB接続子(委託)のチェック</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">42</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">if</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">[</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-z</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${ITK_CONN}</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">]</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">43</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">then</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">44</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">echo</span><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">&quot;本番DB接続子(委託)取得にエラーが発生しました！&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">|</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">tee</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-a</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${LOG_FILE}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">45</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">exit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">1</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">46</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">fi</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">47</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">48</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#エクスポート格納場所のチェック</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">49</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">if</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">[</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">!</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-d</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}/${NOW}</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">]</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">50</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">then</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">51</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">mkdir</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-pm</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">755</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}/${NOW}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">52</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">fi</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">53</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">54</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#委託データエクスポート</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">8</td>
+<td class="TextItemSame Wrap">#YDCのテーブルをエックスポートする</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">55</td>
+<td class="TextItemSame Wrap">#YDCのテーブルをエックスポートする</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">56</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">echo</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;基準系本番委託データエクスポート処理開始(`date`)&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">|</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">tee</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-a</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${LOG_FILE}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">9</td>
+<td class="TextItemSigDiffMod Wrap">exp /@TSTARITK1 tables=(TB%,FN%) file=$HOME_PATH/../../YDC_DMP/exp_YDC_ITK_${NOW}.dmp log=$HOME_PATH/../../YDC_DMP/exp_YDC_ITK_${NOW}.log direct=y</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">57</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>exp /@TSTARITK1 tables=(TB%,FN%) file=$HOME_PATH/../../YDC_DMP/exp_YDC_ITK_${NOW}.dmp log=$HOME_PATH/../../YDC_DMP/exp_YDC_ITK_${NOW}.log direct=y</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">58</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">sh</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">BCZC0070.sh</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">exp</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;`basename</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">$0</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">|</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">sed</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">'s/.sh//g'`&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${ITK_CONN}</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}/${NOW}/exp_YDC_ITK_${NOW}.dmp</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">exp_YDC_ITK_${NOW}.log</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;TABLES=TB%,FN%&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}/${NOW}/exp_YDC_ITK_${NOW}.log</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">2&gt;&amp;1</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">59</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">10</td>
+<td class="TextItemSame Wrap">#圧縮する</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">60</td>
+<td class="TextItemSame Wrap">#圧縮する</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">11</td>
+<td class="TextItemSigDiffMod Wrap">/bin/gzip $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.dmp</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">61</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>/bin/gzip $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.dmp</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">62</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">/bin/gzip</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}/${NOW}/exp_YDC_ITK_${NOW}.dmp</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">63</td>
+<td class="TextItemInsigRightMod Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">64</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#ENDファイル作成</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">12</td>
+<td class="TextItemSigDiffMod Wrap">/bin/touch $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.END</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">65</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>/bin/touch $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.END</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">66</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">/bin/touch</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${HB_NAS_PATH}/${NOW}/exp_YDC_ITK_${NOW}.END</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">13</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">67</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">14</td>
+<td class="TextItemSigDiffMod Wrap">cp -p $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.dmp.gz /ext/ikodatatx/pmo/YDC_DMP/ASAITI/</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">68</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>cp -p $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.dmp.gz /ext/ikodatatx/pmo/YDC_DMP/ASAITI/</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">15</td>
+<td class="TextItemSigDiffMod Wrap">cp -p $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.log /ext/ikodatatx/pmo/YDC_DMP/ASAITI/</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">69</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>cp -p $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.log /ext/ikodatatx/pmo/YDC_DMP/ASAITI/</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">16</td>
+<td class="TextItemSigDiffMod Wrap">cp -p $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.END /ext/ikodatatx/pmo/YDC_DMP/ASAITI/</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">70</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>cp -p $HOME_PATH/../../YDC_DMP/exp_YDC_ITK_$NOW.END /ext/ikodatatx/pmo/YDC_DMP/ASAITI/</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">17</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">71</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">-+</td>
+<td class="TextItemNum AlignRight Wrap">72</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#正常終了</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">73</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">echo</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;基準系本番委託データエクスポート処理終了(`date`)&quot;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">|</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">tee</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">-a</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">${LOG_FILE}</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">74</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">exit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">0</span></td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">75</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">#基盤更改の修正　END</span></td>
+</tr>
+</table>
+<br/>
+</body>
+</html>

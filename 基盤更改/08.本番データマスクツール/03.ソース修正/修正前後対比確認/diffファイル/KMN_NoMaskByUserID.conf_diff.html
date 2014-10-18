@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigAdd { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EFEFFF; text-decoration: line-through; }
+td.TextItemInsigDiffMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigLeftMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigRightMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemNum { color: #827357; background-color: #F2F2F2; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+td.TextItemSigDiffMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigLeftMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigRightMod { color: #000000; background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 2013/12/03 14:21:46<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; All, With Context &nbsp;
+<br/>
+Left file: D:\kibankoukai_new\08.本番データマスクツール\03.ソース修正\修正前\MASKDB_KMN\conf\KMN_NoMaskByUserID.conf &nbsp;
+<br/>
+Right file: D:\kibankoukai_new\08.本番データマスクツール\03.ソース修正\修正後\MASKDB_KMN\conf\KMN_NoMaskByUserID.conf &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">1</td>
+<td class="TextItemSame Wrap">#シェールID</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">1</td>
+<td class="TextItemSame Wrap">#シェールID</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">2</td>
+<td class="TextItemSame Wrap">Kshid=&quot;KMN_NoMaskByUserID&quot;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">2</td>
+<td class="TextItemSame Wrap">Kshid=&quot;KMN_NoMaskByUserID&quot;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">3</td>
+<td class="TextItemSame Wrap">#データベースSYSユーザ接続子</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">3</td>
+<td class="TextItemSame Wrap">#データベースSYSユーザ接続子</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight Wrap">4</td>
+<td class="TextItemSame Wrap">KDBCONN=&quot;KMN_WORK01/KMN_WORK01@IPAS01&quot;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">4</td>
+<td class="TextItemSame Wrap">KDBCONN=&quot;KMN_WORK01/KMN_WORK01@IPAS01&quot;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">5</td>
+<td class="TextItemSame Wrap">#インポートファイル格納場所</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">5</td>
+<td class="TextItemSame Wrap">#インポートファイル格納場所</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">6</td>
+<td class="TextItemSigDiffMod Wrap">TINPUT_PATH=&quot;/share/KMN_MASK&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">6</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TINPUT_PATH=&quot;/share/KMN_MASK&quot;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">7</td>
+<td class="TextItemSame Wrap">#ツール用データベースユーザ名</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">7</td>
+<td class="TextItemSame Wrap">#ツール用データベースユーザ名</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">8</td>
+<td class="TextItemSigDiffMod Wrap">TSYSDBNAME=&quot;KMN_WORK02&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">8</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TSYSDBNAME=&quot;KMN_WORK02&quot;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">9</td>
+<td class="TextItemSame Wrap">#ツール用データベースのPASSWORD</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">9</td>
+<td class="TextItemSame Wrap">#ツール用データベースのPASSWORD</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">10</td>
+<td class="TextItemSigDiffMod Wrap">TSYSDBPWD=&quot;KMN_WORK02&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">10</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TSYSDBPWD=&quot;KMN_WORK02&quot;</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">11</td>
+<td class="TextItemSame Wrap">#ツール用データベースサーバ名</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">11</td>
+<td class="TextItemSame Wrap">#ツール用データベースサーバ名</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">12</td>
+<td class="TextItemSigDiffMod Wrap">TSYSDBSVR=&quot;IPAS01&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">12</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TSYSDBSVR=&quot;IPAS01&quot;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">13</td>
+<td class="TextItemSigDiffMod Wrap">TRIREKIDB=${TSYSDBNAME}/${TSYSDBPWD}@${TSYSDBSVR}</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">13</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TRIREKIDB=${TSYSDBNAME}/${TSYSDBPWD}@${TSYSDBSVR}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">14</td>
+<td class="TextItemSame Wrap">#インポート顧問系ファイル格納場所</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">14</td>
+<td class="TextItemSame Wrap">#インポート顧問系ファイル格納場所</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">15</td>
+<td class="TextItemSigDiffMod Wrap">TASAIN_PATH=${TINPUT_PATH}&quot;/in_data/kmn&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">15</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TASAIN_PATH=${TINPUT_PATH}&quot;/in_data/kmn&quot;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">16</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">TASAIN_PATH=/share/TDC_DMP/HONBAN/KMN/${MASKDATE}</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">16</td>
+<td class="TextItemSame Wrap">#DUMPファイルインポートログ出力パス</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">17</td>
+<td class="TextItemSame Wrap">#DUMPファイルインポートログ出力パス</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight Wrap">17</td>
+<td class="TextItemSigDiffMod Wrap">TMASKWKDIR=${TINPUT_PATH}&quot;/out_data/kmn&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">18</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TMASKWKDIR=${TINPUT_PATH}&quot;/out_data/kmn&quot;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight Wrap">&nbsp;</td>
+<td class="TextItemSame Wrap">&nbsp;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="TextItemNum AlignRight Wrap">19</td>
+<td class="TextItemSigRightMod Wrap"><span class="TextSegSigDiff">TMASKWKDIR=${MTBASEHOME}&quot;/log/imp_log&quot;</span></td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">18</td>
+<td class="TextItemSame Wrap">#マスクされたの出力顧問系DUMPファイル格納場所</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">20</td>
+<td class="TextItemSame Wrap">#マスクされたの出力顧問系DUMPファイル格納場所</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">19</td>
+<td class="TextItemSigDiffMod Wrap">TASAOUT_PATH=${TMASKWKDIR}</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">21</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>TASAOUT_PATH=${TMASKWKDIR}</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">20</td>
+<td class="TextItemSame Wrap">#ツールのログファイル</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="TextItemNum AlignRight Wrap">22</td>
+<td class="TextItemSame Wrap">#ツールのログファイル</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemNum AlignRight Wrap">21</td>
+<td class="TextItemSigDiffMod Wrap">LogFile=${TMASKHOME}&quot;/log/KMN_Mask.log&quot;</td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextItemNum AlignRight Wrap">23</td>
+<td class="TextItemSigDiffMod Wrap"><span class="TextSegSigDiff">#</span>LogFile=${TMASKHOME}&quot;/log/KMN_Mask.log&quot;</td>
+</tr>
+</table>
+<br/>
+</body>
+</html>
