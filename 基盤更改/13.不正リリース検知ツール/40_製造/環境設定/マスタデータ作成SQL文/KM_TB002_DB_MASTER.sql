@@ -1,0 +1,30 @@
+insert into KM_TB002_DB values('FS_TB001_FUSEI_RELEASE','不正リリース検知結果','2','20110301','000000');
+insert into KM_TB002_DB values('FS_TB002_MODULE_ELIB','本番配布要モジュール一覧','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB003_MODULE_RX','YDC配布済モジュール一覧(RX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB003_MODULE_TX','YDC配布済モジュール一覧(TX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB003_MODULE_RA','YDC配布済モジュール一覧(RA)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB003_MODULE_KRX','ODC蓄積済モジュール一覧(KRX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB003_MODULE_KTX','ODC蓄積済モジュール一覧(KTX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB004_MODULE_ELIB_RX','YDC配布要モジュール一覧(RX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB004_MODULE_ELIB_TX','YDC配布要モジュール一覧(TX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB004_MODULE_ELIB_RA','YDC配布要モジュール一覧(RA)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB004_MODULE_ELIB_KRX','ODC蓄積要モジュール一覧(KRX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB004_MODULE_ELIB_KTX','ODC蓄積要モジュール一覧(KTX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB005_NEW_FUSEI_RX','YDC今回不正リリース一覧(RX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB005_NEW_FUSEI_TX','YDC今回不正リリース一覧(TX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB005_NEW_FUSEI_RA','YDC今回不正リリース一覧(RA)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB005_NEW_FUSEI_KRX','ODC今回不正リリース一覧(KRX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB005_NEW_FUSEI_KTX','ODC今回不正リリース一覧(KTX)','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB006_SVR_JOUHOU','サーバー情報一覧','2','20110301','000000');
+insert into KM_TB002_DB values('FS_TB007_OLD_MODULE_RX','YDC配布済モジュール一覧(RX)_バックアップ','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB007_OLD_MODULE_TX','YDC配布済モジュール一覧(TX)_バックアップ','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB007_OLD_MODULE_RA','YDC配布済モジュール一覧(RA)_バックアップ','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB007_OLD_MODULE_KRX','ODC蓄積済モジュール一覧(KRX)_バックアップ','3','20110301','000000');
+insert into KM_TB002_DB values('FS_TB007_OLD_MODULE_KTX','ODC蓄積済モジュール一覧(KTX)_バックアップ','3','20110301','000000');
+insert into KM_TB002_DB values('KM_TB001_RIREKI','画面変更履歴一覧','1','20110301','000000');
+insert into KM_TB002_DB values('KM_TB002_DB','テーブル一覧','1','20110301','000000');
+insert into KM_TB002_DB values('KM_TB003_DBITEM','テーブル項目一覧','1','20110301','000000');
+insert into KM_TB002_DB values('KM_TB004_EXCLUDE_DATA','対象外データ','1','20110301','000000');
+commit;
+
+exit

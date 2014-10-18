@@ -1,0 +1,121 @@
+Delivered-To: gaohu@grandunit.net
+Received: by 10.182.113.3 with SMTP id iu3csp12141obb;
+        Wed, 26 Feb 2014 00:01:09 -0800 (PST)
+X-Received: by 10.66.163.138 with SMTP id yi10mr6957481pab.95.1393401668901;
+        Wed, 26 Feb 2014 00:01:08 -0800 (PST)
+Return-Path: <gut00010@partner.nri.co.jp>
+Received: from nrifs01.index.or.jp (nrigw01.index.or.jp. [133.250.250.1])
+        by mx.google.com with ESMTP id gk3si108512pac.234.2014.02.26.00.01.08
+        for <gaohu@grandunit.net>;
+        Wed, 26 Feb 2014 00:01:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of gut00010@partner.nri.co.jp designates 133.250.250.1 as permitted sender) client-ip=133.250.250.1;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of gut00010@partner.nri.co.jp designates 133.250.250.1 as permitted sender) smtp.mail=gut00010@partner.nri.co.jp
+Received: from nrimfs23.index.or.jp (unknown [172.19.246.99])
+	by nrifs01.index.or.jp (Postfix) with ESMTP id A541A77EE4;
+	Wed, 26 Feb 2014 17:01:07 +0900 (JST)
+Received: from nrims00a.nri.co.jp ([192.50.135.11])
+	by nriea05.index.or.jp with ESMTP id s1Q814x5030263;
+	Wed, 26 Feb 2014 17:01:05 +0900
+Received: from nrims00a.nri.co.jp (localhost.localdomain [127.0.0.1])
+	by nrims00a.nri.co.jp (Switch-3.3.3/Switch-3.3.3) with ESMTP id s1Q814hE016496;
+	Wed, 26 Feb 2014 17:01:04 +0900
+Received: (from mailnull@localhost)
+	by nrims00a.nri.co.jp (Switch-3.3.3/Switch-3.3.0/Submit) id s1Q814gB016495;
+	Wed, 26 Feb 2014 17:01:04 +0900
+X-Authentication-Warning: nrims00a.nri.co.jp: mailnull set sender to gut00010@partner.nri.co.jp using -f
+Received: from ptms00a.nri.co.jp ([192.175.144.22])
+	by nrims00a.nri.co.jp (Switch-3.3.3/Switch-3.3.3) with ESMTP id s1Q814nH016491;
+	Wed, 26 Feb 2014 17:01:04 +0900
+Received: from nrizmf51a.index.or.jp ([172.100.26.17])
+	by ptms00a.nri.co.jp (Switch-3.3.4/Switch-3.3.4) with ESMTP id s1Q8143k060568;
+	Wed, 26 Feb 2014 17:01:04 +0900
+Message-ID: <530D9F36.3030403@partner.nri.co.jp>
+Date: Wed, 26 Feb 2014 17:00:54 +0900
+From: =?ISO-2022-JP?B?GyRCTjYhITdFO1IbKEI=?= <gut00010@partner.nri.co.jp>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.5) Gecko/20120605 Thunderbird/10.0.5
+MIME-Version: 1.0
+To: gaohu@grandunit.net
+Subject: Fwd: =?ISO-2022-JP?B?GyRCIVpPIk1tIVshISVqJWohPCU5JUQhPCVrJEhJVBsoQg==?=
+ =?ISO-2022-JP?B?GyRCQDUlaiVqITwlOTghQ04lRCE8JWskTjtFTU09cSRIJUQhPCVrGyhC?=
+ =?ISO-2022-JP?B?GyRCJEskRCQtJF4kNyRGGyhC?=
+References: <530D99B6.7020405@partner.nri.co.jp>
+In-Reply-To: <530D99B6.7020405@partner.nri.co.jp>
+X-Forwarded-Message-Id: <530D99B6.7020405@partner.nri.co.jp>
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: 7bit
+X-MailAdviser: Ver1.5.1
+
+高虎
+大連からの情報を転送します。
+よろしくお願いします。
+
+-------- Original Message --------
+Subject: 【連絡】　リリースツールと不正リリース検知ツールの仕様書とツールにつきまして
+Date: Wed, 26 Feb 2014 16:37:26 +0900
+From: "坂本(大連GUT)" <gut00101@partner.nri.co.jp>
+To: gut00010@partner.nri.co.jp
+
+
+　龍さん
+
+
+いつもお世話になっています。
+坂本です。
+
+先ほど、お電話いたしました仕様書類は下記の通りです。
+不足情報などありましたらご連絡ください。
+
+なお、本番リリースツールと不正リリースツールは
+本番環境が設定されていますので、シェルなどは
+★実施しないように注意★お願いいたします。
+
+＜本番リリースツール＞
+　仕様書類：\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60.ツール類\06.本番リリースツール
+　今までの改修版：\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60.ツール類\06.本番リリースツール\40_製造
+　最新版：\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60.ツール類\06.本番リリースツール\40_製造\ver0.2.4
+
+＜不正リリース検知ツール＞
+　仕様書類：\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60.ツール類\13.不正リリース検知ツール
+
+【参考資料】
+　（ツールの概要）
+　\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60. ツール類 \13.不正リリース検知ツール\10_概要設計
+　\不正リリース検知ツール概要設計書.xls
+
+　（ジョブの詳細設計書）
+　\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60. ツール類 \13.不正リリース検知ツール\30_内部・詳細設計
+　\フレームネットジョブ一覧（不正リリースツール）.xlsx
+
+　（テーブル一覧）
+　\\Amsdp1\40.事業単位（含パートナー）\P31.T-STAR\999.開発管理\99.開発管理チームワーク\60. ツール類 \13.不正リリース検知ツール\20_外部設計
+　テーブル一覧.xls
+
+【実行シェルの格納場所】
+　・周辺サーバ（192.178.64.56）
+　　DIR:/home/senelib/DevmanagerV2/fsrelskenti/src/shl
+　　ファイル：B00SCM201.sh
+　　　　　　　B00SCM202.sh
+　　　　　　　B21SMA201.sh
+　　　　　　　B21SMA202.sh
+　　　　　　　B21SMA203.sh
+　　　　　　　B21SMA204.sh
+　　　　　　　B21SMA205.sh
+　　　　　　　B21SMA206.sh
+　　　　　　　B21SMA207.sh
+
+　・elibsysサーバ（正）（192.178.64.36）
+　　DIR:/home/senelib/DevmanagerV2/fsrelskenti/shl
+　　ファイル：B21SMA200.sh
+
+【OracleDBへの接続アカウント】
+　接続先：192.178.7.76 (port：1521)
+　アカウントID：FSREL
+　　　　　　PW：FSREL
+
+【不正リリース検知ツールの接続アカウント】
+　（※とりあえず私の書いておきます）
+　アカウントID：lib-gut00101
+　　　　　　PW：gut1226
+
+以上、よろしくお願いいたします。

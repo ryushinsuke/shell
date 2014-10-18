@@ -1,0 +1,10 @@
+spawn sftp apl@172.107.61.13
+Connecting to 172.107.61.13...
+apl@172.107.61.13's password: 
+sftp> put /home/apl/test_gut/chroot/release/check/TX/* /home/apl/test_gut/senelib/DevmanagerV2/fsrelskenti/infile/TX
+Uploading /home/apl/test_gut/chroot/release/check/TX/pl-test.lst to /home/apl/test_gut/senelib/DevmanagerV2/fsrelskenti/infile/TX/pl-test.lst
+/home/apl/test_gut/chroot/release/check/TX/pl-test.lst                                  0%    0     0.0KB/s   --:-- ETA/home/apl/test_gut/chroot/release/check/TX/pl-test.lst                                100%  151     0.2KB/s   00:00    
+sftp> cd /home/apl/test_gut/senelib/DevmanagerV2/fsrelskenti/infile/TX
+sftp> ls -l
+-rw-r-----    1 apl      root          151 Mar 24 16:27 pl-test.lst
+sftp> exit
