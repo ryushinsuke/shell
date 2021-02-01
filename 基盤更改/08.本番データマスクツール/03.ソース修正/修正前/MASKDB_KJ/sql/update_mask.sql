@@ -1,1 +1,0 @@
-update mask_db set set_jouhou='''³®'' || TO_MULTI_BYTE(TBA6_ITK_CODE) || ''“ŠM›››››››››››››››››››››››''' where table_name='TBA6' and up_clm_name='TBA6_KAISYA_E_KJ_S';

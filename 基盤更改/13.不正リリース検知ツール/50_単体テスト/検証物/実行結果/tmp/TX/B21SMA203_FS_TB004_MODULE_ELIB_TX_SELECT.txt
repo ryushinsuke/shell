@@ -1,8 +1,0 @@
-
-FS_TB004_MODULE_ELIB_TX                                     :SVR_GRP_ID                                                  :VARCHAR2            :         255:Y :1
-FS_TB004_MODULE_ELIB_TX                                     :SVR_ID                                                      :VARCHAR2            :         255:Y :2
-FS_TB004_MODULE_ELIB_TX                                     :HONGW_DSTSK_PATH                                            :VARCHAR2            :         255:Y :3
-FS_TB004_MODULE_ELIB_TX                                     :KNRBKKN_FILE_ID                                             :VARCHAR2            :         255:Y :4
-FS_TB004_MODULE_ELIB_TX                                     :KNRBKKN_TIMESTAMP                                           :VARCHAR2            :          14:Y :0
-FS_TB004_MODULE_ELIB_TX                                     :KNRBKKN_SIZE                                                :VARCHAR2            :          10:Y :0
-FS_TB004_MODULE_ELIB_TX                                     :HON_REP_LIBTHM_ID                                           :VARCHAR2            :         100:Y :0
